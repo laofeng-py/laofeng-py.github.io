@@ -1,17 +1,17 @@
 # --- General options --- #
 
 # Name of website
-title: My website
+title: 老冯py
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+description: 老冯的python实验室
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
 
 # url is the the website domain URL without a trailing slash
-#url: "https://example.com"
+#url: "https://laofeng-py.github.io"
 
 # baseurl should be an empty string
 #baseurl: ""
@@ -20,11 +20,21 @@ description: A virtual proof that I'm awesome
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-  Author's home: "http://deanattali.com"
+  python资源:
+    - numpy: "https://www.numpy.org/doc/"
+    - pandas: "https://pandas.pydata.org/pandas-docs/stable/"
+    - jupyter: "https://jupyter.org/documentation"
+    - pytorh: "https://pytorch.org/docs/stable/index.html"
+    - tensorflow: "https://tensorflow.google.cn/"
+  大数据资源:
+    - Hadoop: "http://hadoop.apache.org/"
+    - Hive: "https://hive.apache.org/index.html"
+    - Hbase: "https://hbase.apache.org/"
+    - Kylin: "http://kylin.apache.org/"
+    - Spark: "http://spark.apache.org/"
+    - Flink: "https://flink.apache.org/" 
+  我: "aboutme"
+  #Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -60,7 +70,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: laofeng
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -68,10 +78,10 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  email: "387753061@qq.com"
+#  facebook: deanattali
+  github: laofeng-py
+#  twitter: daattali
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
