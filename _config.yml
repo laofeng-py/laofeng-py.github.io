@@ -4,14 +4,22 @@
 title: 老冯py
 
 # Short description of your site
-description: 老冯的python实验室
+#<<<<<<< HEAD
+#description: 老冯的python实验室
+#=======
+description: 老冯的python和大数据实验室
+#>>>>>>> 3b01f10e08e2b30a45ebe45ddaa3cf2d300fd38d
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
 
 # url is the the website domain URL without a trailing slash
+#<<<<<<< HEAD
 #url: "https://laofeng-py.github.io"
+=======
+url: "https://laofeng-py.github.io"
+#>>>>>>> 3b01f10e08e2b30a45ebe45ddaa3cf2d300fd38d
 
 # baseurl should be an empty string
 #baseurl: ""
@@ -20,6 +28,7 @@ description: 老冯的python实验室
 
 # List of links in the navigation bar
 navbar-links:
+#<<<<<<< HEAD
   python资源:
     - numpy: "https://www.numpy.org/doc/"
     - pandas: "https://pandas.pydata.org/pandas-docs/stable/"
@@ -35,6 +44,13 @@ navbar-links:
     - Flink: "https://flink.apache.org/" 
   我: "aboutme"
   #Author's home: "http://deanattali.com"
+#=======
+  About Me: "关于"
+  Resources:
+    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Learn markdown: "http://www.markdowntutorial.com/"
+  Author's home: "https://laofeng-py.github.com"
+#>>>>>>> 3b01f10e08e2b30a45ebe45ddaa3cf2d300fd38d
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -70,7 +86,11 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
+#<<<<<<< HEAD
   name: laofeng
+#=======
+  name: 老冯
+#>>>>>>> 3b01f10e08e2b30a45ebe45ddaa3cf2d300fd38d
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -97,8 +117,8 @@ social-network-links:
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
+  twitter: false
+  facebook: false
   linkedin: true
 
 # How to display the link to the website in the footer
@@ -163,7 +183,7 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Asia/Shanghai"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
